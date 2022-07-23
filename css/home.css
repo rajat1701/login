@@ -23,18 +23,18 @@ body{
 
 .container{
     position: relative;
-    width: 90%;
-    height: 87vh;
-    border: 5px solid black;
+    width: 70%;
+    height: 60vh;
     display:flex;
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(10px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .logout{
      position: absolute;
-     bottom: 180px;
+     bottom: 80px;
      right: auto;
      padding: 12px 24px;
      text-transform: capitalize;
@@ -44,19 +44,15 @@ body{
      border: none;
      font-size: 1.4rem;
      background-color: black;
-     border: 2px solid;
+     border: 2px solid black;
+     color: #33496B;
 }
-.logout:hover{
+.logout:hover {
     background-color: #455E85;
     color: black;
     border: 2px solid black;
 }
-a{
-    color: #455E85;
-}
-a:hover{
-    color: black;
-}
+
 .greeting{
     font-family: 'dosis';
     font-size: 100px;
