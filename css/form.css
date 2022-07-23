@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('../images/home_header.png');
+    background: url('../images/bgimg.jpg');
     background-size: cover;
     background-position: center;
     font-family: 'robot', sans-serif;
@@ -26,19 +26,20 @@ body {
 }
 
 .form {
-    border: 2px solid lawngreen;
-    width: 400px;
+    border: 2px solid black;
+    /* width: 400px; */
     height: auto;
-    color: black;
+    color: #FFF;
     font-family: 'robot', sans-serif;
-
+    backdrop-filter: blur(10px);
+    padding: 50px 40px;
 }
 
 .heading {
     /* opacity: 0; */
     text-transform: capitalize;
     text-align: center;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 100;   
     margin-bottom: 50px;
 
@@ -47,14 +48,14 @@ body {
 input, .submit-btn{
     /* opacity: 0; */
     width:80%;
-    border: 2px solid lawngreen;
+    border: 2px solid black;
     height: 35px;
     display: block;
     margin: 20px auto;
     border-radius: 5px;
     background: rgba(255, 255, 255, 0.3);
     /* border:none; */
-    color: darkslategray;
+    color: #33496B;
     padding: 15px;
     transition: .5s;
     text-transform: capitalize;
@@ -63,7 +64,7 @@ input, .submit-btn{
 }
 
 input::placeholder{
-    color: darkslategray;;
+    color: #33496B;
 }
 
 input:focus, .submit-btn:hover{
@@ -89,12 +90,12 @@ input:focus::placeholder{
     text-align: center;
     text-transform: capitalize;
     text-decoration: none;
-    color:darkslategray; ;
+    color:white;
     display:block;
     margin: 30px auto;
 }
 .link:hover{
-    color:lawngreen;
+    color: #33496B;
 }
 
 .alert-box{

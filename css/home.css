@@ -13,7 +13,7 @@ body{
    display:flex;
    justify-content: center;
    align-items: center;
-   background: url('../images/home_header.png');
+   background: url('../images/bgimg.jpg');
    background-size: cover; 
    background-position: center;
    font-family: 'robot',sans-serif;
@@ -29,21 +29,34 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
+    backdrop-filter: blur(10px);
 }
 
 .logout{
      position: absolute;
-     top: 10px;
-     right: 0;
-     padding: 10px 20px;
+     bottom: 180px;
+     right: auto;
+     padding: 12px 24px;
      text-transform: capitalize;
-     color:black;
-     text-decoration: underline;
+     text-decoration: none;
      cursor: pointer;
      outline: none;
      border: none;
+     font-size: 1.4rem;
+     background-color: black;
+     border: 2px solid;
 }
-
+.logout:hover{
+    background-color: #455E85;
+    color: black;
+    border: 2px solid black;
+}
+a{
+    color: #455E85;
+}
+a:hover{
+    color: black;
+}
 .greeting{
     font-family: 'dosis';
     font-size: 100px;
