@@ -13,7 +13,7 @@ body{
    display:flex;
    justify-content: center;
    align-items: center;
-   background: url('images/home_header.png');
+   background: url('../images/home_header.png');
    background-size: cover; 
    background-position: center;
    font-family: 'robot',sans-serif;
